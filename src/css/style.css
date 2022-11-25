@@ -1,0 +1,26 @@
+body {
+  background-color: #a3f7bf;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+}
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #000;
+}
+.mole {
+  background-image: url(../img/mole.jpg);
+  background-size: cover;
+}
